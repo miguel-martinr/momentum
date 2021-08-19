@@ -10,6 +10,7 @@ import {
   Link
 } from "react-router-dom";
 import { DownloadButton } from './features/home/DownloadButton';
+import { Form } from './features/home/Upload/Form';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,7 @@ function App() {
     <Router>
       <div className="App container mt-5">
         <Home title="Moentum"></Home>
-        <DownloadButton></DownloadButton>
+        <Form></Form>
       </div>
 
     </Router>
